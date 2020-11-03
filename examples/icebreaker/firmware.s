@@ -1,4 +1,4 @@
-addi    s0, zero, 0         # initialise x1 reg to 0
+addi    s0, zero, 0         # initialise s1 reg to 0
 lui     s1, 0x1000          # load led address to s1
 loop:
 addi    s0, s0, 1           # add 1 to s0
